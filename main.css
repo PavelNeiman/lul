@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: url(img/bg-header.jpg) no-repeat center;
+    background-size: cover;
+    height: 892px;
+}
+
+section.header{
+    display: flex;
+    justify-content: space-between;
+    height:105px ;
+    border-bottom: 1px solid #000;
+    flex-wrap: wrap;
+}
+
+div.forLogo{
+    margin-left: 200px;
+    margin-top: 40px;
+    color: antiquewhite;
+    vertical-align: text-top;
+    white-space: nowrap
+
+}
+
+img.logo{
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+}
+
+.forLogoP{
+    display: inline-block;
+    
+}
+
+
+nav{
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 25px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover{
+    border-bottom: 5px solid white;
+}
+/* SEARCH */
+
+
+
+.mainOneH2{
+    display: inline-block;
+    margin-top: 275px;
+    margin-left: 225px;
+    text-align: right;
+}
+
+.mainOneH2 h2{
+    font-size: 50px;
+    font-family: sans-serif ;
+    color:white;
+
+}
+
+.mainOneH2 p{
+    font-size: 12px;
+    color: wheat;
+    margin-right: 30px;
+}
+
+.mainOneH2 a, .get-start__button{
+    padding: 20px 60px;
+    border: 1px solid #8824cd;
+    display: inline-block;
+    border-radius: 50px;
+    background: #8824cd;
+    margin-top: 20px;
+    font-size: 18px;
+    color:yellow;
+    text-decoration: none;
+}
+
+
+/* under--head */
+.under-head{
+    background-color: #2e3b4e;
+}
+
+
+.pluses__title{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+
+.pluses{
+    color: wheat;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 815px;
+    margin: 0 auto;
+    padding: 60px 0px 140px 0px;
+}
+
+
+.pluses__blocks{
+    max-width: 400px;
+    margin-bottom: 30px;
+    
+}
+
+.pluses__blocks--right-side{
+    margin-left: 10px;
+}
+
+
+
+/* second section */
+
+.second{
+    min-height: 540px;
+    background-color: #c15066;
+}
+
+.get-start{
+    margin: 0 auto;
+    padding-top: 140px;
+    max-width: 550px;
+    color: wheat;
+}
+
+.get-start__button{
+    color:red;
+    background-color: #fff;
+}
+
+.get-start__title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.get-start__ph{
+    font-size: 15px;
+    display: block;
+    max-width: 460px;
+    margin-bottom: 20px;
+    
+}
+
+
+/* thrid */
+
+.third{
+    max-height: 500px;
+ 
+}
+
+.third__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.third__pen{
+    max-width: 640px;
+    max-height: 500px;
+    
+}
+
+.third__text{
+    max-width: 650px;
+    margin: 100px 0px 0px 100px;
+}
+
+.third__text h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.third__ph--first{
+    font-size: 19px;
+}
+
+.third__ph--second{
+    font-size: 15px;
+}
+
+
+
+/* four */
+
+.four{
+    background: url(img/fourbg.jpg);
+    max-height: 550px;
+    padding-top: 100px;
+}
+
+
+.four__color{
+    min-height: 450px;
+    background-color: rgba(82, 26, 102, 0.85 );
+   
+    
+}
+
+.four__content{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.get-start__title--four{
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.four__exp{
+    margin-top: 15px;
+}
+
+
+.get-start__button--four{
+    background: #8824cd;
+    color: #fff;
+}
+
+
+/* five */
+
+.five{
+    min-height: 670px;
+    padding-left: 200px;
+    padding-top: 360px;
+    background: url(img/eatsection.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.five__button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 55px;
+    padding: 10px 10px 10px 50px;
+    
+}
+
+.five__title{
+    margin: 30px 0px 30px 0px;
+    font-size: 40px;
+
+}
+
+.developer__ph{
+    float: left;
+    margin-left: -30px;
+}
+
+.developer__said{
+    padding-top: 15px;
+    margin-left: -30px;
+    display: inline-block;
+}
+
+
+
+/* six */
+.six{
+    min-height: 120px;
+    padding-left: 200px;
+    background: wheat;
+    color: #3a4d60;
+
+}
+
+.six__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.six__text{
+    max-width: 650px;
+    max-height: 260px;
+    padding: 100px 70px 130px 0px;
+}
+
+.six__title{
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.six__first-ph{
+    font-size: 19px;
+    margin: 20px 0px 40px 0px;
+}
+
+.six__second-ph{
+    font-size: 15px;
+}
+
+.six__photo{
+    max-width: 690px;
+}
+
+
+
+/* seven */
+
+.seven{
+    min-height: 450px;
+    background: rgba(212, 87, 87, 0.979);
+    padding: 210px 0px 0px 80px;
+    color: wheat;
+}
+
+
+.seven__content{
+    max-width: 400px;
+    max-height: 180px;
+}
+
+.seven__mail{
+    color:wheat;
+    }
+
+
+/* footer */
+
+footer{
+    min-height: 370px;
+    background-color: grey;
+    padding: 210px 0px 0px 50px;
+    color:wheat;
+    font-size: 19px;
+    text-transform: uppercase;
+}
